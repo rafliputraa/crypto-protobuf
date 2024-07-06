@@ -1,0 +1,7 @@
+/target
+.env
+.cargo
+.idea
+.vscode
+apps
+docker-compose.yml
