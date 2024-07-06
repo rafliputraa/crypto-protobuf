@@ -17,7 +17,7 @@ fn main() {
         .unwrap_or_else(|e| panic!("Failed to compile protos: {:?}", e));
 
     // Verify if the generated files are in the expected directory
-    let watchlist_output_path = out_dir.join("crypto.watchlist.rs");
+    let watchlist_output_path = out_dir.join("crypto_watchlist.rs");
 
-    assert!(watchlist_output_path.exists(), "Generated file for crypto.watchlist.rs does not exist");
+    assert!(watchlist_output_path.exists(), "Generated file for crypto_watchlist.rs does not exist");
 }
